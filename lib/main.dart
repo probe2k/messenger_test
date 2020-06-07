@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:messenger_test/messenger_home.dart';
+import 'package:messenger_test/views/login.dart';
 
 void main() => runApp(MyApp());
 
@@ -8,9 +8,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return new MaterialApp(
       title: 'Flutter Messenger',
-      home: MessengerHome(),
+      home: Login(),
       theme: ThemeData(
-        primarySwatch: Color.black,
+        primarySwatch: Colors.black,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       debugShowCheckedModeBanner: false,
